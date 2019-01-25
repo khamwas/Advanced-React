@@ -1,9 +1,10 @@
 import React from 'react';
+import CreateItem from '../components/CreateItem';
 
 function Sell(props) {
 	return (
 		<div>
-			<p>Sell!</p>
+			<CreateItem />
 		</div>
 	);
 }
